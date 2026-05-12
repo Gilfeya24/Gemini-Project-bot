@@ -16,8 +16,8 @@ from IPython.display import display
 from IPython.display import Markdown
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDmXE1t0ezu9cR6cMxUEeQC3wLEX5__KdE'"
-genai.configure(api_key='AIzaSyDmXE1t0ezu9cR6cMxUEeQC3wLEX5__KdE')
+os.environ["GOOGLE_API_KEY"] = "google_api_key"
+genai.configure(api_key='google_api_key')
 
 #function
 def get_gemini_response(input,image):
