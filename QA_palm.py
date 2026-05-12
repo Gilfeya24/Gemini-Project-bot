@@ -12,8 +12,8 @@ from IPython.display import display
 from IPython.display import Markdown
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD0Z4wq9whkyTeD-mIKAYeiXrRvWZJBh_0"
-genai.configure(api_key='AIzaSyD0Z4wq9whkyTeD-mIKAYeiXrRvWZJBh_0')
+os.environ["GOOGLE_API_KEY"] = "google_api_key"
+genai.configure(api_key='google_api_key')
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 chat = model.start_chat(history=[])
